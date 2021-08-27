@@ -12,7 +12,6 @@ const socketController = (socket) => {
         const longitud = payload.longitud;
         console.log('cambio ubicacion => ', latitud, ',',longitud);
     });
-
 };
 
 module.exports = {
